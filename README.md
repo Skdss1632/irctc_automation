@@ -1,7 +1,7 @@
 
 # IRCTC Tatkal python Automation !
 
-Can book Tatkal ticket within 25 seconds..
+Book Tatkal ticket within 25 seconds..
 
 ### Features
 - ✓Can book Tatkal, Premium Tatkal, and Normal Tickets.
@@ -10,13 +10,60 @@ Can book Tatkal ticket within 25 seconds..
 - ✓Supports multiple passengers.
 - ✓Pre-fills all necessary information.
 - ✓Automated payment via IRCTC wallet or QR Code.
+    
+### Passenger_data:- do not add anything inside SEAT and FOOD
+
+```{
+ "passenger_details": [
+      {
+        "NAME": "python auto",
+        "AGE": 44,
+        "GENDER": "Male",
+        "SEAT": "",
+        "FOOD": ""
+      }
+    ],
+   "passenger_phn_no": "1234567890"
+}
+```
+### You can add multiple passenger array of objects in PASSENGER_DETAILS as an example below
+```{
+ "passenger_details": [
+       {
+        "NAME": "python auto",
+        "AGE": 44,
+        "GENDER": "Male",
+        "SEAT": "",
+        "FOOD": ""
+      },
+         {
+        "NAME": "python auto2",
+        "AGE": 45,
+        "GENDER": "Male",
+        "SEAT": "",
+        "FOOD": ""
+      },
+         {
+        "NAME": "python auto3",
+        "AGE": 46,
+        "GENDER": "Male",
+        "SEAT": "",
+        "FOOD": ""
+      },
+         {
+        "NAME": "python auto4",
+        "AGE": 47,
+        "GENDER": "Male",
+        "SEAT": "",
+        "FOOD": ""
+      }
+    ],
+   "passenger_phn_no": "1234567890"
+}
+```
 
 ## How to Make this work for you?
 - Make relevant changes in file located at ``` irctc_automation/automation_project/json_config```
-
-
-
-
 
 ## follow the given steps to setup the project on your system:-
 
@@ -59,60 +106,6 @@ Last Step That's It...........
 python project.py # <---- Make Sure You Run This Command From Code Folder. 
 ```
 
-
-    
-### Passenger_data:- do not add anything inside SEAT and FOOD
-
-```{
- "passenger_details": [
-      {
-        "NAME": "python auto",
-        "AGE": 44,
-        "GENDER": "Male",
-        "SEAT": "",
-        "FOOD": ""
-      }
-    ],
-   "passenger_phn_no": "1234567890"
-}
-```
-
-### You can add multiple passenger array of objects in PASSENGER_DETAILS as an example below
-
-```{
- "passenger_details": [
-       {
-        "NAME": "python auto",
-        "AGE": 44,
-        "GENDER": "Male",
-        "SEAT": "",
-        "FOOD": ""
-      },
-         {
-        "NAME": "python auto2",
-        "AGE": 45,
-        "GENDER": "Male",
-        "SEAT": "",
-        "FOOD": ""
-      },
-         {
-        "NAME": "python auto3",
-        "AGE": 46,
-        "GENDER": "Male",
-        "SEAT": "",
-        "FOOD": ""
-      },
-         {
-        "NAME": "python auto4",
-        "AGE": 47,
-        "GENDER": "Male",
-        "SEAT": "",
-        "FOOD": ""
-      }
-    ],
-   "passenger_phn_no": "1234567890"
-}
-```
 ### Note
 
 - At a time either Tatkal Or Premium Tatkal can be -> true <- not both and general should be -> false.
