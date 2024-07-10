@@ -1,12 +1,12 @@
 {
  "passenger_details": [
       {
-        "NAME": "mritunjoy kr yadav",
+        "NAME": "",
         "AGE": 25,
         "GENDER": "Male",
         "SEAT": "",
         "FOOD": ""
       }
     ],
-   "passenger_phn_no": "9934678488"
+   "passenger_phn_no": "1234567890"
 }
