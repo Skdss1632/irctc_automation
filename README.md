@@ -54,6 +54,11 @@ https://chromewebstore.google.com/detail/adblock-%E2%80%94-block-ads-acros/gighm
 
 ```
 
+Last Step That's It...........
+```
+python project.py # <---- Make Sure You Run This Command From Code Folder. 
+```
+
 
     
 ### Passenger_data:- do not add anything inside SEAT and FOOD
