@@ -1,0 +1,6 @@
+PyAutoGUI==0.9.54
+pytesseract==0.3.10
+pyperclip==1.8.2
+schedule==1.2.1
+pillow==10.3.0
+selenium==4.20.0
