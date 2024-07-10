@@ -49,7 +49,10 @@ pip install -r requirement.txt
 
 4. install extension on chrome browser from the given link
 
-```https://chromewebstore.google.com/detail/adblock-%E2%80%94-block-ads-acros/gighmmpiobklfepjocnamgkkbiglidom```
+```
+https://chromewebstore.google.com/detail/adblock-%E2%80%94-block-ads-acros/gighmmpiobklfepjocnamgkkbiglidom
+
+```
 
 
     
