@@ -12,7 +12,7 @@ Can book Tatkal ticket within 25 seconds..
 - ✓Automated payment via IRCTC wallet or QR Code.
 
 ## How to Make this work for you?
-- Make relevant changes in file located at irctc_automation/automation_project/json_config
+- Make relevant changes in file located at ``` irctc_automation/automation_project/json_config```
 
 
 
@@ -53,7 +53,7 @@ pip install -r requirement.txt
 
 
     
-## Passenger_data:- do not add anything inside SEAT and FOOD
+### Passenger_data:- do not add anything inside SEAT and FOOD
 
 ```{
  "passenger_details": [
@@ -69,7 +69,7 @@ pip install -r requirement.txt
 }
 ```
 
-## You can add multiple passenger array of objects in PASSENGER_DETAILS as an example below
+### You can add multiple passenger array of objects in PASSENGER_DETAILS as an example below
 
 ```{
  "passenger_details": [
@@ -109,7 +109,7 @@ pip install -r requirement.txt
 
 - At a time either Tatkal Or Premium Tatkal can be -> true <- not both and general should be -> false.
 
-- set the zoom level to 80% of your chrome browser
+- set the zoom level to 80% of your chrome browser if you are using it on windows
 
 - currently auto captcha fill is disabled bcz it takes upto 10 to 20 seconds sometimes so fill the captcha manually
 
