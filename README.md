@@ -3,6 +3,14 @@
 
 Book Tatkal ticket within 25 seconds..
 
+**⚠️ Disclaimer:**
+
+This Python script for automating IRCTC ticket booking is created strictly for educational and demonstration purposes. The code and its usage are intended to showcase Python scripting capabilities and best practices.
+
+**Warning:**
+
+Unauthorized use of this script to access or manipulate IRCTC services in violation of their terms of service or legal regulations is strictly prohibited. The author(s) and associated entities disclaim any responsibility for misuse or legal consequences resulting from unauthorized activities using this script.
+
 ### Features
 - ✓Can book Tatkal, Premium Tatkal, and Normal Tickets.
 - ✓Books tickets even if opened 2-3 minutes before Tatkal time.
