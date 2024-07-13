@@ -46,6 +46,8 @@
     "kde_connect_blue_color_otp_txt_image": "kde_connect_blue_color_otp_txt.png",
     "ticket_type_dropdwn_image": "ticket_type_dropdwn.png",
     "modify_search_image": "modify_search.png",
-    "validate_chrome_open_image": "validate_chrome_open.png"
+    "validate_chrome_open_image": "validate_chrome_open.png",
+    "login_popup_image": "login_popup.png",
+    "ticket_type_dropdwn_list_image": "ticket_type_dropdwn_list.png"
   }
 }

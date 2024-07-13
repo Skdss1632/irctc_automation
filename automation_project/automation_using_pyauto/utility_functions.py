@@ -146,8 +146,6 @@ def input_source_n_destination_station_n_travel_date(source_station: str, destin
 
 def open_chrome_browser_with_irctc_page():
     click_browser()
-    # open chrome with shortcut key
-    # py.hotkey("shift", "alt", "c")
     # wait_for_element(get_image_path("validate_chrome_open_image"), confidence=0.60, min_search_time=10)
     py.sleep(1)
     py.hotkey("ctrl", "t")
@@ -161,6 +159,7 @@ def click_login_btn():
     login_btn_loc = wait_for_element(image_path=get_image_path("login_btn_image"))
     py.moveTo(login_btn_loc)
     py.click(login_btn_loc)
+    wait_for_element(image_path=get_image_path("login_popup_image"))
 
 
 def click_pay_n_book(no_of_press: int):
@@ -338,8 +337,9 @@ def click_irctc_e_wallet():
 def select_ticket_type_from_dropdwn():
     if not get_ticket_type_selection("is_general"):
         press = 0
-        dropdwn_loc = wait_for_element(get_image_path("ticket_type_dropdwn_image"))
+        dropdwn_loc = wait_for_element(get_image_path("ticket_type_dropdwn_image"), min_search_time=10, confidence=0.80)
         py.click(dropdwn_loc)
+        wait_for_element(get_image_path("ticket_type_dropdwn_list_image"))
         if get_ticket_type_selection("is_tatkal"):
             press = 2
         if get_ticket_type_selection("is_premium_tatkal"):
